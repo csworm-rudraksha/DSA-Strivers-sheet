@@ -1,24 +1,30 @@
 package Arrays;
-
-import java.util.PriorityQueue;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class SortColors_75 {
-    public static void main(String[] args) {
-        int[] nums = {2,0,2,1,1,0};
-        PriorityQueue<Integer> q = new PriorityQueue<>();
-        for(int n : nums){
-            q.add(n);
-        }
-        System.out.println();
-    }
     public void sortColors(int[] nums) {
-        TreeSet<Integer> set = new TreeSet<>();
-        for(int n : nums){
-            set.add(n);
+        int low = 0;
+        int mid = 0;
+        int high = nums.length - 1;
+
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                // Swap nums[low] and nums[mid], increment low and mid
+                int temp = nums[low];
+                nums[low] = nums[mid];
+                nums[mid] = temp;
+                low++;
+                mid++;
+            } else if (nums[mid] == 1) {
+                // Move mid pointer
+                mid++;
+            } else if (nums[mid] == 2) {
+                // Swap nums[mid] and nums[high], decrement high
+                int temp = nums[mid];
+                nums[mid] = nums[high];
+                nums[high] = temp;
+                high--;
+            }
         }
-        set.toArray();
-        System.out.println(set);
     }
 }
