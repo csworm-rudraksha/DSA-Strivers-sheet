@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class SearchInAnElementInASortedArray {
     static int searchInSorted(int arr[], int N, int K)

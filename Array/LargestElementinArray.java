@@ -1,5 +1,5 @@
-package Arrays;
-import java.util.*;
+package Array;
+
 public class LargestElementinArray {
 
     //To find the largest number in the array

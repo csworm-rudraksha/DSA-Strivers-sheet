@@ -1,5 +1,5 @@
-package Arrays;
-import java.util.*;
+package Array;
+
 public class MissingNumber_268 {
     public static void main(String[] args) {
         int arr[]={1,3,4};

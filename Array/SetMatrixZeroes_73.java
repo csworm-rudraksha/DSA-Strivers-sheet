@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 import java.util.*;
 public class SetMatrixZeroes_73 {
     public void setZeroes(int[][] matrix) {

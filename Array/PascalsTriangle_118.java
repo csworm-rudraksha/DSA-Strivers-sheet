@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 import java.util.*;
 public class PascalsTriangle_118 {
     public List<List<Integer>> generate(int numRows) {

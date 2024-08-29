@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 import java.util.*;
 public class MoveZeroes_283 {
     public static void moveZeroes(int[] nums) {

@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.*;
+package Array;
 
 public class RotateImage_48 {
     public static void rotate(int[][] matrix) {

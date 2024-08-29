@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class SecondLargest {
     int print2largest(int arr[], int n) {

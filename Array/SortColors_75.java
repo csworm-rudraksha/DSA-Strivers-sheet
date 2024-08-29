@@ -1,5 +1,4 @@
-package Arrays;
-import java.util.*;
+package Array;
 
 public class SortColors_75 {
     public void sortColors(int[] nums) {
